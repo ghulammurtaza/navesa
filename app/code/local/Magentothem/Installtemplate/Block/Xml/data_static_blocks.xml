@@ -1,0 +1,226 @@
+<?xml version="1.0"?>
+<ma_rossi2>
+    <blocks>
+       
+        <block>
+            <title>Banner Right</title>
+            <identifier>banner_right</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-right hidden-xs">
+						<div class="ma-block-static-inner"><a href="{{store direct_url="football.html"}}"><img src="{{media url="wysiwyg/banner-right.jpg"}}" alt="" /></a></div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+        <block>
+            <title>Footer Link payment</title>
+            <identifier>footer_payment</identifier>
+            <content>
+			<![CDATA[
+				<ul class="payment">
+				<li><a href="#"><img src="{{media url="wysiwyg/payment.png"}}" alt="" /></a></li>
+				</ul>
+		    ]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+        <block>
+            <title>Static Sub Menu Bottom</title>
+            <identifier>pt_menu_idcat_3</identifier>
+            <content>
+                <![CDATA[
+					<div class="sub-menu-inner"><a href="{{store direct_url="camera.html"}}"><img src="{{media url="wysiwyg/img_custum.jpg"}}" alt="" /></a></div>
+                ]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Footer Static</title>
+            <identifier>footer_static</identifier>
+            <content>
+                   <![CDATA[
+						<div class="f-col f-col-3 col-sm-6 col-md-4 col-sms-6 col-smb-12">
+						<div class="img-logo"><a href="#"><img src="{{media url="wysiwyg/logo.png"}}" alt="" /></a></div>
+						<div class="footer-static-content ">
+						<p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit...</p>
+						</div>
+						</div>
+						<div class="f-col f-col-4 col-sm-6 col-md-2 col-sms-6 col-smb-12">
+						<div class="footer-static-title">
+						<h3>OUR SERVICES</h3>
+						</div>
+						<div class="footer-static-content">
+						<ul>
+						<li class="first"><a href="{{store direct_url="about-magento-demo-store"}}">About us</a></li>
+						<li><a href="{{store direct_url="contacts"}}">Order History</a></li>
+						<li><a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Returns</a></li>
+						<li><a href="{{store direct_url="customer-service"}}">Custom Service</a></li>
+						<li class="last"><a href="{{store direct_url="catalogsearch/term/popular"}}">Terms &amp; Condition</a></li>
+						</ul>
+						</div>
+						</div>
+						<div class="f-col f-col-5 col-sm-6 col-md-2 col-sms-6 col-smb-12">
+						<div class="footer-static-title">
+						<h3>our support</h3>
+						</div>
+						<div class="footer-static-content ">
+						<ul>
+						<li class="first"><a href="{{store direct_url="catalog/seo_sitemap/category"}}">Sitemap</a></li>
+						<li><a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Privacy Policy</a></li>
+						<li><a href="{{store direct_url="customer/account/index"}}">Your Account</a></li>
+						<li><a href="{{store direct_url="catalogsearch/advanced"}}">Advanced Search</a></li>
+						<li class="last"><a href="{{store direct_url="contacts"}}">Contact Us</a></li>
+						</ul>
+						</div>
+						</div>
+						<div class="f-col f-col-6 col-sm-6 col-md-2 col-sms-6 col-smb-12">
+						<div class="footer-static-title">
+						<h3>MY ACCOUNT</h3>
+						</div>
+						<div class="footer-static-content">
+						<ul>
+						<li class="first"><a href="{{store direct_url="customer/account/index"}}">My Account</a></li>
+						<li><a href="{{store direct_url="contacts"}}">Order History</a></li>
+						<li><a href="{{store direct_url="contacts"}}">Returns</a></li>
+						<li><a href="{{store direct_url="contacts"}}">Specials</a></li>
+						<li class="last"><a href="{{store direct_url="catalog/seo_sitemap/category"}}">Site Map</a></li>
+						</ul>
+						</div>
+						</div>
+						<div class="f-col f-col-7 col-sm-6 col-md-2 col-sms-6 col-smb-12">
+						<div class="footer-static-title">
+						<h3>information</h3>
+						</div>
+						<div class="footer-static-content">
+						<ul>
+						<li class="first"><a href="{{store direct_url="about-magento-demo-store"}}">About us</a></li>
+						<li><a href="{{store direct_url="contacts"}}">Information</a></li>
+						<li><a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Privacy Policy</a></li>
+						<li><a href="{{store direct_url="customer-service"}}">Custom Service</a></li>
+						<li class="last"><a href="{{store direct_url="catalogsearch/term/popular"}}">Terms &amp; Condition</a></li>
+						</ul>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+			
+		<block>
+            <title>Block Link Follow</title>
+            <identifier>block_link_follow</identifier>
+            <content>
+                   <![CDATA[
+							<div class="f-col f-col-2 col-sm-7 col-md-7 col-sms-12">{{block type="newsletter/subscribe" name="left.newsletter" template="newsletter/subscribe.phtml"}}</div>
+							<div class="f-col f-col-1 col-sm-5 col-md-5 col-sms-12">
+							<ul class="link-follow">
+							<li class="first"><a class="facebook fa fa-facebook" href="#"><span>facebook</span></a></li>
+							<li><a class="rss fa fa-rss" href="#"><span>rss</span></a></li>
+							<li><a class="twitter fa fa-twitter" href="#"><span>twitter</span></a></li>
+							<li><a class="skype fa fa-skype" href="#"><span>skype</span></a></li>
+							<li class="last"><a class="dribbble fa fa-dribbble" href="#"><span>dribbble</span></a></li>
+							</ul>
+							</div>
+						]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+		<block>
+            <title>Contact Us</title>
+            <identifier>pt_menu_links</identifier>
+            <content>
+			   <![CDATA[
+					<ul>
+					<li><a href="{{store url="bestsellerproductlist"}}">Sale products</a></li>
+					<li><a href="{{store direct_url="newproductlist"}}">New products</a></li>
+					<li><a href="{{store url="contacts"}}">Contact Us</a></li>
+					<li><a href="{{store direct_url="about-magento-demo-store"}}">About us</a></li>
+					</ul>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+		<block>
+            <title>Toplink Static</title>
+            <identifier>toplink_static</identifier>
+            <content>
+			   <![CDATA[
+					<div class="toplink-static clearfix">
+					<div class="tell-phone pull-left">Call us 24/7: (+66) 123-456-789</div>
+					</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+		<block>
+            <title>Static Block View</title>
+            <identifier>static_block_view</identifier>
+            <content>
+			   <![CDATA[
+					<div class="box-col box-col-1">
+					<div class="box-col-inner">
+					<div class="pull-left"><em class="shapes">&nbsp;</em><em class="fa fa-truck"></em></div>
+					<div class="media-body">
+					<h3>Free shipping</h3>
+					This product qualifies for free air shipping.</div>
+					</div>
+					</div>
+					<div class="box-col box-col-2">
+					<div class="box-col-inner">
+					<div class="pull-left"><em class="shapes">&nbsp;</em><em class="fa fa-database"></em></div>
+					<div class="media-body">
+					<h3>Unlimited unlimited</h3>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+					</div>
+					</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+		<block>
+            <title>Ma Block Static 3</title>
+            <identifier>ma_block_static_3</identifier>
+            <content>
+			   <![CDATA[
+					<div class="ma-block-static-3">
+					<div class="row">
+					<div class="col-sm-6 col-md-6 col-xs-12">
+					<div class="banner-home-inner"><a href="#"><img src="{{media url="wysiwyg/img_banner2356.jpg"}}" alt="" /></a></div>
+					</div>
+					<div class="col-sm-6 col-md-6 col-xs-12">
+					<div class="banner-home-inner"><a href="#"><img src="{{media url="wysiwyg/img_banner124.jpg"}}" alt="" /></a></div>
+					</div>
+					</div>
+					</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+		<block>
+            <title>Banner Home Content 2</title>
+            <identifier>banner_home_content_2</identifier>
+            <content>
+			   <![CDATA[
+					<div class="banner-home-content-2">
+					<div class="text-box">
+					<h3>This is Photoshop's version of Lorem</h3>
+					This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum</div>
+					</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>		
+		
+    </blocks>
+</ma_rossi2>
+

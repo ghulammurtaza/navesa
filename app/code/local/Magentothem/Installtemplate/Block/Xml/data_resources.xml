@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ma_rossi2>
+    <resources>
+        <resource>
+            <title>Home page ma_rossi2</title>
+            <identifier>ma_rossi2_home</identifier>
+            <root_template>two_columns_left</root_template>
+				<content><![CDATA[
+					<div class="home-content">{{block type="cms/block" block_id="ma_block_static_3"}} {{widget type="categorytabsliders/advanced" title="Computer" identify="com" cat_ids="4" template="magentothem/categorytabsliders/categorytabsliders.phtml" products_count="15" width_thumbnail="300" height_thumbnail="300"}}{{block type="cms/block" block_id="banner_home_content_2"}}{{widget type="categorytabsliders/advanced" title="Camera" identify="ca" cat_ids="3" template="magentothem/categorytabsliders/categorytabsliders.phtml" products_count="15" width_thumbnail="300" height_thumbnail="300"}}{{widget type="categorytabsliders/advanced" title="category2" identify="ca2" cat_ids="7" template="magentothem/categorytabsliders/categorytabsliders.phtml" products_count="15" width_thumbnail="300" height_thumbnail="300"}}{{widget type="categorytabsliders/advanced" title="category12" identify="ba" cat_ids="5" template="magentothem/categorytabsliders/categorytabsliders.phtml" products_count="15" width_thumbnail="300" height_thumbnail="300"}}</div>
+				]]></content>
+				<sort_order>1</sort_order>
+            <is_active>1</is_active>
+        </resource>
+    </resources>
+</ma_rossi2>
